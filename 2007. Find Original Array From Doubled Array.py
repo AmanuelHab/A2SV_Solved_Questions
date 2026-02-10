@@ -4,7 +4,6 @@ class Solution:
             return []
 
         answer = []
-        changed.sort()
 
         while changed:
             double_val = {num * 2 for num in changed}
