@@ -1,6 +1,6 @@
 # 913B-Christmas-Spruce
 
-**Problem:** [913B-Christmas-Spruce](https://codeforces.com/contest/913/problem/B)
+**Problem:** [913B-Christmas-Spruce](https://codeforces.com/problemset/problem/913/B)
 
 **time limit per test:** 1 second
 
