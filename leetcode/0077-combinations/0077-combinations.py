@@ -1,9 +1,3 @@
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         combo = []
@@ -16,7 +10,6 @@ class Solution:
             if arr:
                 starter = arr[-1] + 1
             for i in range(starter, n + 1):
-                if i not in arr:
-                    generate(arr + [i], n, k - 1)
+                generate(arr + [i], n, k - 1)
         generate([], n, k)
         return combo
