@@ -14,7 +14,6 @@ class Solution:
             else:
                 high = mid - 1
         row = high
-        print(row)
 
         # Find the column
         low = 0
@@ -29,5 +28,5 @@ class Solution:
                 high = mid - 1
             else:
                 low = mid + 1
-        print(ind)
+                
         return ind != -1
